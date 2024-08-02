@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables and I - Frames</title>
+    <link rel="stylesheet" href="">
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tables</h1>
+    <!-- Table - 1 -->
+    <h3>Table - 1</h3>
+    <table border="2px">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Row 1 Cell 1</td>
+          <td>Row 1 Cell 2</td>
+          <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2 Cell 2</td>
+          <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Table - 2 -->
+    <h3>Table - 2</h3>
+    <table border="2px">
+        <caption>A test table with merged cells</caption>
+        <thead>
+          <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red Eyes</th>
+          </tr>
+          <tr>
+            <!-- <th></th> -->
+            <th>height</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody><tr>
+            <tr>
+                <td><b>Males</b></td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+        </tr>
+            </thead>
+            <tr>
+                <td><b>Females</b></td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+      </table>
+      <!-- Table -3  -->
+      <h3>Table - 3</h3>
+       <h2><center>Web Technologies</center></h2>
+      <table border="3px" align="center">
+        <tr>
+          <th>Category</th>
+          <th colspan="2">Technology</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td rowspan="3">Frontend</td>
+          <td>HTML</td>
+          <td>5</td>
+          <td>Standard markup language for creating web pages</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>3</td>
+          <td>Style sheet used for describing the presentation of a document written in HTML</td>
+        </tr>
+        <tr>
+          <td>JS</td>
+          <td>ES6</td>
+          <td>Scripting language used to create and control dynamic web content</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Backend</td>
+          <td colspan="2">Node.js</td>
+          <td>JavaScript run time built on Chrome's V8 JavaScript engine</td>
+        </tr>
+        <tr>
+          <td colspan="2">Django</td>
+          <td>High-level Python web frame work that encourages rapid development and clean pragmatic design</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Database</td>
+          <td colspan="2">MySQL</td>
+          <td>RDBMS based on SQL - Structured Query Language</td>
+        </tr>
+        <tr>
+          <td colspan="2">Mongo DB</td>
+          <td>Document-oriented NoSQL database used for high volume data storage</td>
+        </tr>
+
+
+      </table>
+
+<br><br><br><br><br>
+
+<!-- I - Frames -->
+<h1 align="center">I - FRAMES (Inline Frames)</h1>
+<h3 align="center">This is a Food - Blog</h3>
+<iframe src="https://syamit.github.io/food-blog/" frameborder="0" width="500px" height="500px" for="food">Food - Blog</iframe><br>
+
+<a href="https://syamit.github.io/food-blog/" id="food" target="_blank">Food - Blog</a>
+<br><br><br>
+
+<h3 align="center">This is a Hyderabad Map's</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.25176871577!2d78.40804555!3d17.4123487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1722601031622!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br><br><br>
+<h3 align="center">This is a YouTube Video</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7PIji8OubXU?si=F-QRqAvVk3gfMCmi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+  </body>
+</html>
